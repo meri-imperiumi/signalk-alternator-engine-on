@@ -1,0 +1,34 @@
+{
+  "name": "@meri-imperiumi/signalk-alternator-engine-on",
+  "version": "1.0.1",
+  "description": "Plugin to mark engine as running when alternator produces power",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meri-imperiumi/signalk-alternator-engine-on.git"
+  },
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-category-utility"
+  ],
+  "author": "Henri Bergius <henri.bergius@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meri-imperiumi/signalk-alternator-engine-on/issues"
+  },
+  "homepage": "https://github.com/meri-imperiumi/signalk-alternator-engine-on#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
