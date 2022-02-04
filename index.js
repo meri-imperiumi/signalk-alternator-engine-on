@@ -3,7 +3,7 @@ module.exports = (app) => {
   let unsubscribes = [];
 
   plugin.id = 'signalk-alternator-engine-on';
-  plugin.name = 'alternator-engine-on';
+  plugin.name = 'Altenator engine status detector';
   plugin.description = 'Sets engine as running when alternator produces power';
   const setStatus = app.setPluginStatus || app.setProviderStatus;
 
