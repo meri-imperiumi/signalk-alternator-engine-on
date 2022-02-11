@@ -55,7 +55,7 @@ module.exports = (app) => {
           }
           u.values.forEach((v) => {
             if (v.value > 0) {
-              setState('running');
+              setState('started');
               return;
             }
             setState('stopped');
