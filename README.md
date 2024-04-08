@@ -9,7 +9,7 @@ Engine running state is useful for many other Signal K plugins, including:
 
 ## Changes
 
-* 1.1.0 (April 6th 2024)
+* 1.1.0 (April 8th 2024)
   - Added support for utilizing `chargingMode` as populated by the Victron Orion XS DC-DC charger
 * 1.0.0 (February 4th 2022)
   - Initial release
