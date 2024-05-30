@@ -67,7 +67,10 @@ module.exports = (app) => {
               }
               setState('stopped');
             } else if (v.path === modePath && options.use_chargingmode) {
-              if (v.value === 'off' || v.value === null) {
+              if (v.value == null) {
+                return;
+              }
+              if (v.value === 'off') {
                 setState('stopped');
                 return;
               }
