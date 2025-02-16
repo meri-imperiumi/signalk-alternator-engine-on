@@ -70,7 +70,7 @@ module.exports = (app) => {
               if (v.value == null) {
                 return;
               }
-              if (v.value === 'off') {
+              if (v.value === 'off' || v.value === 'OFF') {
                 setState('stopped');
                 return;
               }
