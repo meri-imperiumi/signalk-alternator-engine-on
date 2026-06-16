@@ -9,6 +9,8 @@ Engine running state is useful for many other Signal K plugins, including:
 
 ## Changes
 
+* 1.2.1 (Jun 16th 2026)
+  - App icon for SK app store
 * 1.2.0 (Feb 16th 2025)
   - Added support for uppercase charging modes reported by some DC-DC chargers
 * 1.1.1 (May 31st 2024)
