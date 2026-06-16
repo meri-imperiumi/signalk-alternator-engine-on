@@ -30,5 +30,12 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "signalk": {
+    "appIcon": "./doc/appicon.png",
+    "displayName": "Altenator Engine Status Detector",
+    "recommends": [
+      "@meri-imperiumi/signalk-autostate"
+    ]
   }
 }
