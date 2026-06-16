@@ -61,7 +61,7 @@ module.exports = (app) => {
           }
           u.values.forEach((v) => {
             if (v.path === powerPath && !options.use_chargingmode) {
-              if (v.value > 0) {
+              if (v.value > 5) {
                 setState('started');
                 return;
               }
