@@ -4,8 +4,8 @@
   "description": "Plugin to mark engine as running when alternator produces power",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "npm run lint"
+    "pretest": "eslint .",
+    "test": "node --test test/*.js"
   },
   "repository": {
     "type": "git",
