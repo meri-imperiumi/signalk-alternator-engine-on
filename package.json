@@ -32,7 +32,7 @@
     "access": "public"
   },
   "signalk": {
-    "appIcon": "./doc/appicon.png",
+    "appIcon": "./doc/appicon-256.png",
     "displayName": "Altenator Engine Status Detector",
     "recommends": [
       "@meri-imperiumi/signalk-autostate"
